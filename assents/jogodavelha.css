@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+   img{
+    width: 50px;
+    height: 50px;
+   }
+
+   .titulo {
+       position: relative;
+       top: 50px;
+       left: 40px;
+       font-size: 30px;
+   }
+   #container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .espaco{
+    width: 160px;
+    height: 120px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .linha{
+    display: flex;
+   }
+
+   #tabuleiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+   }
+
+   #btnRecomecar{
+    padding: 10px; 
+    background: #07aaaa;
+    background: -webkit-linear-gradient(to right, #0bc4c4,#077070);
+    background: linear-gradient(to left, #0bc4c4,#077070);
+    font-family: var(--font-action);
+    color: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+   }
+
+   .voltar {
+    position: relative;
+    left: 650px;
+    top: 30px;
+    margin: auto;
+    width: 70px;
+    height: 50px;
+    background: #07aaaa;
+    background: -webkit-linear-gradient(to right, #0bc4c4,#077070);
+    background: linear-gradient(to left, #0bc4c4,#077070);
+    font-family: var(--font-action);
+    color: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+   }
+
+  .salvar {
+    position: relative;
+    left: 600px;
+    top: 30px;
+    margin: auto;
+    width: 70px;
+    height: 50px;
+    background: #07aaaa;
+    background: -webkit-linear-gradient(to right, #0bc4c4,#077070);
+    background: linear-gradient(to left, #0bc4c4,#077070);
+    font-family: var(--font-action);
+    color: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+
+  }
